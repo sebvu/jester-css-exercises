@@ -1,0 +1,45 @@
+/* stylesheet */
+
+.odd-elements,
+.third-element {
+  background-color: #ffb6c1;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second-element {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+.third-element {
+  font-size: 24px;
+}
+
+#fourth-element {
+  background-color: #90ee90;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* A more effective solution would be the following;
+
+.odd-elements {
+  odd elements properties here...
+}
+
+#second-element {
+  second element properties here..
+}
+
+.third-element {
+  font-size: 24px;
+}
+
+fourth-element{
+  background-color: #90ee90;
+
+  font-weight: bold;
+}
+
+In this solution, we are not re-using font-size: 24px twice in both the fourth, and third element.
+Instead we are applying both the third-element and fourth-element together for the fourth-element to adjust the font without repeating code. */
