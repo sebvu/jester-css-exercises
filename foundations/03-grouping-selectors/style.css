@@ -1,0 +1,16 @@
+/* stylesheet */
+.first,
+.second {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.first {
+  background-color: #000;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.second {
+  background-color: #ffff00;
+}
